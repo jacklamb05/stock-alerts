@@ -348,6 +348,12 @@ def run_podcast(state):
             )
     state["sent"].append(f"podcast-{TODAY}")
 
+def run_test(state):
+    requests.post(
+        f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
+        json={"chat_id": TG_CHAT, "text": "✅ Stock Alerts is connected and working!"},
+        timeout=15,
+    )
 
 # ---------------- entry ----------------
 if __name__ == "__main__":
@@ -358,6 +364,7 @@ if __name__ == "__main__":
         "afterhours": run_afterhours,
         "intraday": run_intraday,
         "podcast": run_podcast,
+        "test": run_test,
     }[mode](state)
     save_state(state)
     print(f"Done ({mode}). Sent so far today: {state['count']} capped alerts.")
