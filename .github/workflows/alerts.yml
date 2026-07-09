@@ -1,0 +1,54 @@
+name: Stock Alerts
+
+on:
+  schedule:
+    # Times are UTC (EDT = UTC-4)
+    - cron: "45 10 * * 1-5"        # 6:45am ET — audio podcast briefing
+    - cron: "30 11 * * 1-5"        # 7:30am ET — morning earnings digest
+    - cron: "*/30 13-19 * * 1-5"   # 9:30am-3:30pm ET — intraday checks
+    - cron: "45 20 * * 1-5"        # 4:45pm ET — earnings results
+    - cron: "30 21,22 * * 1-5"     # 5:30/6:30pm ET — catch late reporters
+  workflow_dispatch:               # manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests pyyaml edge-tts
+
+      - name: Decide mode from time of day
+        id: mode
+        run: |
+          HOUR=$(date -u +%-H)
+          if [ "$HOUR" -lt 11 ]; then MODE=podcast
+          elif [ "$HOUR" -lt 13 ]; then MODE=morning
+          elif [ "$HOUR" -ge 20 ]; then MODE=afterhours
+          else MODE=intraday
+          fi
+          echo "mode=$MODE" >> $GITHUB_OUTPUT
+
+      - name: Run alerts
+        env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python main.py ${{ steps.mode.outputs.mode }}
+
+      - name: Save state (prevents duplicate alerts)
+        run: |
+          git config user.name "alerts-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase || true
+          git add state.json || true
+          git diff --staged --quiet || git commit -m "update alert state"
+          git push || true
