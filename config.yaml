@@ -42,7 +42,7 @@ price_alerts:
 settings:
   # Max notifications per day (macro + news + moves). Earnings and
   # price alerts you set yourself always get through regardless.
-  daily_cap: 6
+  daily_cap: 12
 
   # Intraday move (%) on a portfolio stock that triggers an alert
   big_move_pct: 3.0
