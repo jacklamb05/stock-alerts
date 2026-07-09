@@ -1,0 +1,90 @@
+# ============================================================
+# STOCK ALERTS CONFIG — this is the only file you edit day-to-day
+# ============================================================
+
+# Stocks you own — get earnings alerts, big-move alerts, and news
+portfolio:
+  - NVDA
+  - AAPL
+  - MSFT
+  - AMZN
+  - GOOGL
+  - META
+  - TSLA
+  - JPM
+  - V
+  - COST
+  - AMD
+  - PLTR
+  - COIN
+  - SOFI
+  - HOOD
+
+# Stocks you're watching — earnings alerts + news only (no move alerts)
+watchlist:
+  - NFLX
+  - UBER
+  - SNOW
+  - CRWD
+
+# Price alerts — fires ONCE when crossed, then auto-disables
+# direction: "above" or "below"
+price_alerts:
+  - ticker: NVDA
+    price: 200
+    direction: above
+  - ticker: AMD
+    price: 100
+    direction: below
+
+# ---------------- Notification tuning ----------------
+settings:
+  # Max notifications per day (macro + news + moves). Earnings and
+  # price alerts you set yourself always get through regardless.
+  daily_cap: 6
+
+  # Intraday move (%) on a portfolio stock that triggers an alert
+  big_move_pct: 5.0
+
+  # Only send news containing these words (keeps out the junk)
+  news_keywords:
+    - earnings
+    - guidance
+    - upgrade
+    - downgrade
+    - acquisition
+    - merger
+    - buyback
+    - dividend
+    - SEC
+    - lawsuit
+    - FDA
+    - layoffs
+    - CEO
+
+  # Macro/market-wide news triggers
+  macro_keywords:
+    - federal reserve
+    - fed cuts
+    - fed raises
+    - fed holds
+    - rate cut
+    - rate hike
+    - fomc
+    - powell
+    - cpi
+    - inflation report
+    - jobs report
+    - tariff
+    - government shutdown
+
+  # Use Claude to write a 2-sentence take on earnings results
+  # (requires ANTHROPIC_API_KEY secret; set to false to skip)
+  use_claude_analysis: true
+
+  # Morning audio briefing (~2-3 min) sent at 6:45am ET.
+  # Unlike notifications this is meant to be info-dense.
+  podcast:
+    enabled: true
+    voice: en-US-AndrewNeural   # try en-US-EmmaNeural, en-US-BrianNeural
+    length_words: 450           # ~3 minutes spoken
