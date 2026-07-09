@@ -8,7 +8,11 @@ on:
     - cron: "*/30 13-19 * * 1-5"   # 9:30am-3:30pm ET — intraday checks
     - cron: "45 20 * * 1-5"        # 4:45pm ET — earnings results
     - cron: "30 21,22 * * 1-5"     # 5:30/6:30pm ET — catch late reporters
-  workflow_dispatch:               # manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Mode (test, morning, intraday, afterhours, podcast)"
+        default: "test"             # manual trigger for testing
 
 permissions:
   contents: write
