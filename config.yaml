@@ -4,28 +4,29 @@
 
 # Stocks you own — get earnings alerts, big-move alerts, and news
 portfolio:
-  - NVDA
-  - AAPL
-  - MSFT
+  - CRM
+  - SPCX
+  - ONDS
   - AMZN
-  - GOOGL
-  - META
+  - NVDA
   - TSLA
-  - JPM
-  - V
-  - COST
-  - AMD
-  - PLTR
-  - COIN
+  - IBM
   - SOFI
-  - HOOD
+  - AAPL
+  - HIMS
+  - AMD
+  - ADBE
+  - QQQ
+  - SPY
+  - META
+  - BTCS
 
 # Stocks you're watching — earnings alerts + news only (no move alerts)
 watchlist:
-  - NFLX
-  - UBER
-  - SNOW
-  - CRWD
+  - MSFT
+  - GOOGL
+  - PLTR
+  - COST
 
 # Price alerts — fires ONCE when crossed, then auto-disables
 # direction: "above" or "below"
@@ -44,7 +45,7 @@ settings:
   daily_cap: 6
 
   # Intraday move (%) on a portfolio stock that triggers an alert
-  big_move_pct: 5.0
+  big_move_pct: 3.0
 
   # Only send news containing these words (keeps out the junk)
   news_keywords:
