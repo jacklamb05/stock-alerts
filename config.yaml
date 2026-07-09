@@ -80,11 +80,11 @@ settings:
 
   # Use Claude to write a 2-sentence take on earnings results
   # (requires ANTHROPIC_API_KEY secret; set to false to skip)
-  use_claude_analysis: true
+  use_claude_analysis: false
 
   # Morning audio briefing (~2-3 min) sent at 6:45am ET.
   # Unlike notifications this is meant to be info-dense.
   podcast:
-    enabled: true
+    enabled: false
     voice: en-US-AndrewNeural   # try en-US-EmmaNeural, en-US-BrianNeural
     length_words: 450           # ~3 minutes spoken
