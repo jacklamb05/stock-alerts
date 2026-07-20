@@ -1,6 +1,6 @@
 {
   "day": "2026-07-20",
-  "count": 8,
+  "count": 12,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -106,7 +106,11 @@
     "news-140952379",
     "news-140957827",
     "news-140958109",
-    "news-140950520"
+    "news-140950520",
+    "move-ONDS-2026-07-20",
+    "move-ADBE-2026-07-20",
+    "news-139663512",
+    "news-140959368"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
