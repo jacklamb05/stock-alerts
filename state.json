@@ -135,7 +135,10 @@
     "news-140980431",
     "news-140981666",
     "news-140981089",
-    "news-140982402"
+    "news-140982402",
+    "earnings-result-GOOGL-2026-07-22",
+    "earnings-result-IBM-2026-07-22",
+    "earnings-result-TSLA-2026-07-22"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
