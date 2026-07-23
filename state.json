@@ -1,6 +1,6 @@
 {
-  "day": "2026-07-22",
-  "count": 12,
+  "day": "2026-07-23",
+  "count": 0,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -140,7 +140,5 @@
     "earnings-result-IBM-2026-07-22",
     "earnings-result-TSLA-2026-07-22"
   ],
-  "triggered_price_alerts": [
-    "price-NVDA-above-200"
-  ]
+  "triggered_price_alerts": []
 }
