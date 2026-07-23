@@ -1,6 +1,6 @@
 {
   "day": "2026-07-23",
-  "count": 0,
+  "count": 12,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -138,7 +138,21 @@
     "news-140982402",
     "earnings-result-GOOGL-2026-07-22",
     "earnings-result-IBM-2026-07-22",
-    "earnings-result-TSLA-2026-07-22"
+    "earnings-result-TSLA-2026-07-22",
+    "move-CRM-2026-07-23",
+    "move-AMZN-2026-07-23",
+    "move-TSLA-2026-07-23",
+    "move-META-2026-07-23",
+    "news-140993214",
+    "news-140993675",
+    "news-140985516",
+    "news-140993228",
+    "news-140993244",
+    "news-140993399",
+    "news-140993334",
+    "news-140993898"
   ],
-  "triggered_price_alerts": []
+  "triggered_price_alerts": [
+    "price-NVDA-above-200"
+  ]
 }
