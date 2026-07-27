@@ -1,6 +1,6 @@
 {
-  "day": "2026-07-24",
-  "count": 12,
+  "day": "2026-07-27",
+  "count": 11,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -162,7 +162,18 @@
     "news-141005248",
     "news-141005529",
     "news-141005141",
-    "news-141003923"
+    "news-141003923",
+    "move-CRM-2026-07-27",
+    "move-IBM-2026-07-27",
+    "move-AAPL-2026-07-27",
+    "move-HIMS-2026-07-27",
+    "move-AMD-2026-07-27",
+    "move-ADBE-2026-07-27",
+    "news-141032051",
+    "news-141032074",
+    "news-141030750",
+    "news-141024454",
+    "news-141031952"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
