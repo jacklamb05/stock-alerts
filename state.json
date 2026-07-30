@@ -1,6 +1,6 @@
 {
   "day": "2026-07-30",
-  "count": 0,
+  "count": 12,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -203,7 +203,19 @@
     "earnings-result-META-2026-07-29",
     "earnings-result-MSFT-2026-07-29",
     "earnings-result-SOFI-2026-07-29",
-    "morning-2026-07-30"
+    "morning-2026-07-30",
+    "move-CRM-2026-07-30",
+    "move-SPCX-2026-07-30",
+    "move-ONDS-2026-07-30",
+    "move-NVDA-2026-07-30",
+    "move-SOFI-2026-07-30",
+    "move-HIMS-2026-07-30",
+    "move-AMD-2026-07-30",
+    "move-ADBE-2026-07-30",
+    "move-BTCS-2026-07-30",
+    "news-141064619",
+    "news-141058210",
+    "news-141064463"
   ],
   "triggered_price_alerts": []
 }
