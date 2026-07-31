@@ -1,6 +1,6 @@
 {
   "day": "2026-07-31",
-  "count": 0,
+  "count": 12,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -217,7 +217,19 @@
     "news-141058210",
     "news-141064463",
     "earnings-result-AAPL-2026-07-30",
-    "earnings-result-AMZN-2026-07-30"
+    "earnings-result-AMZN-2026-07-30",
+    "move-AMZN-2026-07-31",
+    "move-AAPL-2026-07-31",
+    "news-141077860",
+    "news-141077975",
+    "news-141078486",
+    "news-141064334",
+    "news-141071877",
+    "news-141076915",
+    "news-141074059",
+    "news-141077864",
+    "news-141077871",
+    "news-141077908"
   ],
   "triggered_price_alerts": []
 }
