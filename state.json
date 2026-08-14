@@ -1,6 +1,6 @@
 {
-  "day": "2026-08-13",
-  "count": 12,
+  "day": "2026-08-14",
+  "count": 0,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -346,7 +346,5 @@
     "news-141200627",
     "earnings-result-ONDS-2026-08-13"
   ],
-  "triggered_price_alerts": [
-    "price-NVDA-above-200"
-  ]
+  "triggered_price_alerts": []
 }
