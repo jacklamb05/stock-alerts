@@ -1,6 +1,6 @@
 {
-  "day": "2026-08-17",
-  "count": 12,
+  "day": "2026-08-18",
+  "count": 0,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -370,7 +370,5 @@
     "move-CRM-2026-08-17",
     "move-BTCS-2026-08-17"
   ],
-  "triggered_price_alerts": [
-    "price-NVDA-above-200"
-  ]
+  "triggered_price_alerts": []
 }
