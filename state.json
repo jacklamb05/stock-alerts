@@ -1,6 +1,6 @@
 {
-  "day": "2026-08-25",
-  "count": 12,
+  "day": "2026-08-26",
+  "count": 0,
   "sent": [
     "price-NVDA-above-200",
     "news-140846258",
@@ -440,9 +440,8 @@
     "news-141315823",
     "news-141312092",
     "macro-8400906",
-    "macro-8397974"
+    "macro-8397974",
+    "morning-2026-08-26"
   ],
-  "triggered_price_alerts": [
-    "price-NVDA-above-200"
-  ]
+  "triggered_price_alerts": []
 }
