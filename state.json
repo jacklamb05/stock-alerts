@@ -2,10 +2,6 @@
   "day": "2026-09-24",
   "count": 12,
   "sent": [
-    "move-CRM-2026-07-27",
-    "move-IBM-2026-07-27",
-    "move-AAPL-2026-07-27",
-    "move-HIMS-2026-07-27",
     "move-AMD-2026-07-27",
     "move-ADBE-2026-07-27",
     "news-141032051",
@@ -505,7 +501,8 @@
     "move-ONDS-2026-09-24",
     "move-BTCS-2026-09-24",
     "news-142383496",
-    "news-142383570"
+    "news-142383570",
+    "earnings-result-COST-2026-09-24"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
