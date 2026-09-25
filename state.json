@@ -1,6 +1,6 @@
 {
   "day": "2026-09-25",
-  "count": 11,
+  "count": 12,
   "sent": [
     "move-ADBE-2026-07-28",
     "move-BTCS-2026-07-28",
@@ -501,7 +501,8 @@
     "news-142421080",
     "news-142422097",
     "news-142422104",
-    "macro-8541018"
+    "macro-8541018",
+    "news-142423936"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
