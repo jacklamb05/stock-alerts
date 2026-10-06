@@ -1,6 +1,6 @@
 {
   "day": "2026-10-06",
-  "count": 9,
+  "count": 12,
   "sent": [
     "move-AMD-2026-08-05",
     "move-QQQ-2026-08-05",
@@ -501,7 +501,10 @@
     "news-142665390",
     "news-142666078",
     "news-142665430",
-    "news-142665570"
+    "news-142665570",
+    "news-142666713",
+    "news-142666676",
+    "news-142666681"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
