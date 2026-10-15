@@ -1,6 +1,6 @@
 {
   "day": "2026-10-15",
-  "count": 11,
+  "count": 12,
   "sent": [
     "news-141212981",
     "news-141211654",
@@ -501,7 +501,8 @@
     "news-142916353",
     "news-142916236",
     "macro-8624539",
-    "macro-8623264"
+    "macro-8623264",
+    "move-SPCX-2026-10-15"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
