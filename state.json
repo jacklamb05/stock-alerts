@@ -1,5 +1,5 @@
 {
-  "day": "2026-10-20",
+  "day": "2026-10-21",
   "count": 12,
   "sent": [
     "news-141252992",
@@ -501,7 +501,19 @@
     "news-143028504",
     "news-143025800",
     "news-143025673",
-    "earnings-result-SPCX-2026-10-20"
+    "earnings-result-SPCX-2026-10-20",
+    "move-SPCX-2026-10-21",
+    "move-TSLA-2026-10-21",
+    "move-BTCS-2026-10-21",
+    "news-143061562",
+    "news-143067363",
+    "news-143067291",
+    "news-143067258",
+    "news-143067360",
+    "news-143067488",
+    "news-143033529",
+    "news-143062997",
+    "news-143062038"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
