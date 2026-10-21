@@ -501,7 +501,10 @@
     "news-143067488",
     "news-143033529",
     "news-143062997",
-    "news-143062038"
+    "news-143062038",
+    "earnings-result-IBM-2026-10-21",
+    "earnings-result-META-2026-10-21",
+    "earnings-result-TSLA-2026-10-21"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
