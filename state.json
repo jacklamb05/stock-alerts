@@ -1,5 +1,5 @@
 {
-  "day": "2026-10-21",
+  "day": "2026-10-22",
   "count": 12,
   "sent": [
     "move-SPCX-2026-08-20",
@@ -501,7 +501,19 @@
     "news-143062038",
     "earnings-result-IBM-2026-10-21",
     "earnings-result-META-2026-10-21",
-    "earnings-result-TSLA-2026-10-21"
+    "earnings-result-TSLA-2026-10-21",
+    "move-SPCX-2026-10-22",
+    "move-AMZN-2026-10-22",
+    "move-NVDA-2026-10-22",
+    "move-AMD-2026-10-22",
+    "move-ADBE-2026-10-22",
+    "move-META-2026-10-22",
+    "move-BTCS-2026-10-22",
+    "news-143100033",
+    "news-143099531",
+    "news-143100261",
+    "news-143098721",
+    "news-143071032"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
