@@ -1,5 +1,5 @@
 {
-  "day": "2026-10-27",
+  "day": "2026-10-28",
   "count": 12,
   "sent": [
     "move-HIMS-2026-08-26",
@@ -501,7 +501,19 @@
     "news-143212984",
     "news-143235213",
     "news-143234059",
-    "earnings-result-SOFI-2026-10-27"
+    "earnings-result-SOFI-2026-10-27",
+    "news-143254723",
+    "news-143259213",
+    "news-143258982",
+    "news-143258937",
+    "news-143259044",
+    "news-143259127",
+    "news-143255479",
+    "news-143258949",
+    "news-143259085",
+    "news-143258544",
+    "news-143259850",
+    "news-143256197"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
