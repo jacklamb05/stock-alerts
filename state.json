@@ -1,5 +1,5 @@
 {
-  "day": "2026-10-29",
+  "day": "2026-10-30",
   "count": 12,
   "sent": [
     "news-141376164",
@@ -501,7 +501,19 @@
     "news-143292258",
     "news-143261946",
     "news-143292021",
-    "earnings-result-AMZN-2026-10-29"
+    "earnings-result-AMZN-2026-10-29",
+    "move-SPCX-2026-10-30",
+    "move-ONDS-2026-10-30",
+    "move-NVDA-2026-10-30",
+    "move-SOFI-2026-10-30",
+    "move-HIMS-2026-10-30",
+    "move-AMD-2026-10-30",
+    "move-QQQ-2026-10-30",
+    "move-BTCS-2026-10-30",
+    "news-143295197",
+    "news-143346728",
+    "news-143346666",
+    "news-143346626"
   ],
   "triggered_price_alerts": [
     "price-NVDA-above-200"
