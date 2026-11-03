@@ -1,6 +1,6 @@
 {
-  "day": "2026-11-02",
-  "count": 0,
+  "day": "2026-11-03",
+  "count": 12,
   "sent": [
     "news-141397854",
     "news-141397888",
@@ -501,7 +501,21 @@
     "news-143295197",
     "news-143346728",
     "news-143346666",
-    "news-143346626"
+    "news-143346626",
+    "move-SPCX-2026-11-03",
+    "move-ONDS-2026-11-03",
+    "move-NVDA-2026-11-03",
+    "move-AMD-2026-11-03",
+    "news-143445534",
+    "news-143445622",
+    "news-143445545",
+    "news-143445558",
+    "news-143445653",
+    "news-143442732",
+    "news-143435063",
+    "news-143445539"
   ],
-  "triggered_price_alerts": []
+  "triggered_price_alerts": [
+    "price-NVDA-above-200"
+  ]
 }
